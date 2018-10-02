@@ -1,6 +1,6 @@
-# 加油 我就信了  自己完成不了这个项目
+# 加油  我就不信了 自己完成不了这个项目  早日成为CEO  早日让赵婷在家当全职太太
 ```
-            日拱一卒无有尽，功不唐捐终入海
+            日拱一卒无有尽，功不唐捐终入海 !!!
 ```
 # Dependencies
 
@@ -25,4 +25,10 @@ $ npm start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+| Name    			| Version  | Explanation  																				|
+| ------------------|----------|--------------------------------------------------------------------------------------------|
+| node | v8.12.0 | a language |
+| npm    			| 6.4.1   | a package manager |
+| Yarn    			| 1.3.2   | Fast, reliable, and secure dependency management.											|
+| Nuxt.js 			| 1.4.0   | Framework for server-rendered Vue.js applications.											|
+| Vue.js  			| 2.4.2    | A progressive, incrementally-adoptable JavaScript framework for building UI on the web.	|
