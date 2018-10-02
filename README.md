@@ -2,7 +2,6 @@
 ```
             日拱一卒无有尽，功不唐捐终入海 !!!
 ```
-# Dependencies
 
 # Noonde_frontend
 
@@ -24,6 +23,8 @@ $ npm start
 # generate static project
 $ npm run generate
 ```
+
+# Dependencies
 
 | Name    			| Version  | Explanation  																				|
 | ------------------|----------|--------------------------------------------------------------------------------------------|
