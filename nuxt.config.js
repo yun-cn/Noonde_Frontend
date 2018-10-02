@@ -2,7 +2,8 @@ module.exports = {
 
   build: {
     vendor: [
-      'element-ui'
+      'element-ui',
+      'vue-i18n'
     ],
     extend (config, { isDev }) {
       if (isDev &&  process.client) {
@@ -16,13 +17,19 @@ module.exports = {
     }
   },
   plugins: [
-    '~plugins/element-ui'
+    '@/plugins/element-ui',
+    '@/plugins/i18n'
   ],
+  router: {
+    middleware: [
+      'i18n'
+    ]
+  },
   css: [
     'element-ui/lib/theme-chalk/index.css'
   ],
   head: {
-    title: 'noonde',
+    title: 'Noonde',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
