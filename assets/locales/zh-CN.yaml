@@ -1,0 +1,14 @@
+components:
+  dropzone:
+    title:
+      platform: Drop the logo's platform here or click to select
+      ext:
+        special-homestay: "Drop your passport photo here or click to select (JPG, JPEG, PNG, GIF)"
+    info: You can upload multiple files at once
+    files-extensions: "Please upload only a JPG, JPEG, PNG or GIF picture (5MB)"
+    invalid-files-extension: "Invalid File extension"
+    errors:
+      dict-file-too-big: "File is too big ({{filesize}}MiB). Max filesize: {{maxFilesize}}MiB."
+  multiselect:
+    placeholder: 入力して下さい
+    add_tag_message: タグとして追加する
