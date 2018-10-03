@@ -24,10 +24,9 @@ export default {
       if (this.lang === targetLang) return;
       let newLocale = targetLang !== 'zh-CN' ? ('/' + targetLang) : ''
       console.log('newLocale', newLocale)
-      if (targetLang !== 'zh-CN') {
+      if (this.lang === 'zh-CN') {
         context.$router.push(context.fullPath.replace(/^\/+/, newLocale + '/'))
       } else {
-        console.log(context.fullPath.replace(/^\/[^/]+/, newLocale))
         context.$router.push(context.fullPath.replace(/^\/[^/]+/, newLocale))
       }
     }

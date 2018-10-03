@@ -1,6 +1,6 @@
 components:
   app-header:
-    login: 登录
+    login: Login
     lang:
       zh-CN: 中文
       ja: 日本語
