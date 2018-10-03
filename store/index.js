@@ -3,8 +3,12 @@ export const state = () => ({
    locale: {
      locales: ['ja', 'en-US', 'zh-CN'],
      selected: 'zh-CN'
-   }
- }
+   },
+   layout: {
+    current: null,
+    fullPath: null
+   },
+  }
 })
 
 

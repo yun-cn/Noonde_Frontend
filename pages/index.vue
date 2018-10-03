@@ -15,6 +15,12 @@
 
 <script>
 export default {
+  async asyncData ({ query, route, store, redirect }) {
+    store.commit('update', ['base.layout', {
+      current: 'auth.login',
+      fullPath: route.fullPath
+    }])
+  },
   data () {
     return {
       value: null

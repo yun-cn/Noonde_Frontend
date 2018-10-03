@@ -10,7 +10,7 @@
       <el-menu-item index="logo" class="el-header-logo">Noonde</el-menu-item>
       <el-menu-item index="login" class="el-header-item-login">{{ $t(`components.app-header.login`) }}</el-menu-item>
       <el-submenu index="lang" class="el-header-item-lang">
-        <template slot="title" >{{ $t(`components.app-header.lang.zh-CN`) }}</template>
+        <template slot="title" >{{ displayedLang }}</template>
         <el-menu-item index="zh-CN">{{ $t(`components.app-header.lang.zh-CN`) }}</el-menu-item>
         <el-menu-item index="en-US">{{ $t(`components.app-header.lang.en-US`) }}</el-menu-item>
         <el-menu-item index="ja">{{ $t(`components.app-header.lang.ja`) }}</el-menu-item>
@@ -34,9 +34,13 @@
 <!-- ============================================================================ -->
 
 <script>
+import mixins from '~/utils/mixins/shared'
+
 export default {
+  mixins: [mixins],
   data () {
     return {
+      context: this,
       activeIndex: '1',
       langs: {
         'zh-CN': '中文',
@@ -47,16 +51,22 @@ export default {
   },
   computed: {
     lang() {
-      console.log(this.$route.path.split('/')[1])
-      return this.$route.path.split('/')[1] || 'zh-CN';
-     },
+      return this.$store.state.base.locale.selected;
+    },
    displayedLang() {
-     return this.langs[this.lang] || '中文';
+     return this.langs[this.lang];
+   },
+   fullPath () {
+     return this.$store.state.base.layout.fullPath
    },
   },
   methods: {
     handleSelect (key, keyPath) {
-      console.log(key, keyPath)
+      switch (keyPath[0]) {
+        case 'lang':
+          this.changeLanguage(this.context, key)
+          break;
+      }
     }
   }
 }
