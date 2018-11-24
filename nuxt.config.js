@@ -3,6 +3,7 @@ module.exports = {
   build: {
     vendor: [
       'element-ui',
+      'vuetify',
       'vue-i18n'
     ],
     extend (config, { isDev }) {
@@ -18,6 +19,7 @@ module.exports = {
   },
   plugins: [
     '@/plugins/element-ui',
+    '@/plugins/vuetify',
     '@/plugins/i18n'
   ],
   router: {
@@ -26,7 +28,8 @@ module.exports = {
     ]
   },
   css: [
-    'element-ui/lib/theme-chalk/index.css'
+    'element-ui/lib/theme-chalk/index.css',
+    'vuetify/dist/vuetify.min.css'
   ],
   head: {
     title: 'Noonde',
@@ -38,7 +41,8 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/earlyaccess/notosansjapanese.css' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/earlyaccess/notosansjapanese.css' },
+      { rel: 'stylesheet', href: 'https://fonts.loli.net/css?family=Roboto:100,300,400,500,700,900|Material+Icons'}
     ]
   },
   loading: { color: '#3B8070' }

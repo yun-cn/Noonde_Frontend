@@ -20,11 +20,11 @@ export default {
         fullPath: `${localePath}?${params}`
       }])
     },
-    changeLanguage(context, targetLang) {
-      if (this.lang === targetLang) return;
-      let newLocale = targetLang !== 'zh-CN' ? ('/' + targetLang) : ''
-      console.log('newLocale', newLocale)
-      if (this.lang === 'zh-CN') {
+    changeLanguage(context, language) {
+      let newLocale = language !== 'zh-CN' ? ('/' + language) : ''
+      let previousLocale = this.$store.state.base.locale.selected
+      console.log('previousLocale', previousLocale)
+      if (previousLocale === 'zh-CN') {
         context.$router.push(context.fullPath.replace(/^\/+/, newLocale + '/'))
       } else {
         context.$router.push(context.fullPath.replace(/^\/[^/]+/, newLocale))
