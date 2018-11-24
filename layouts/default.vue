@@ -1,8 +1,6 @@
 <template>
   <div>
-    <el-header>
-      <app-header/>
-    </el-header>
+    <app-header/>
     <nuxt/>
   </div>
 </template>
