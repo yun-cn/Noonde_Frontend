@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9c784f0-7008-419c-897e-f2c3b69d19d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/plugins/vuetify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/language/cn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/language/jp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/language/us.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/AppHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/AppHeader.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/mixins/shared.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/mixins/shared.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,8 +50,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/index.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="65">
-                  <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+                <state relative-caret-position="130">
+                  <caret line="10" column="110" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="110" />
                 </state>
               </provider>
             </entry>
@@ -149,6 +140,7 @@
         <option value="$PROJECT_DIR$/data/i18n/languages.json" />
         <option value="$PROJECT_DIR$/components/AppHeader.vue" />
         <option value="$PROJECT_DIR$/utils/mixins/shared.js" />
+        <option value="$PROJECT_DIR$/pages/index.vue" />
       </list>
     </option>
   </component>
@@ -233,12 +225,12 @@
       <workItem from="1542954224186" duration="1169000" />
       <workItem from="1542957035144" duration="144000" />
       <workItem from="1542957206433" duration="6109000" />
-      <workItem from="1543064993782" duration="6909000" />
+      <workItem from="1543064993782" duration="7244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14331000" />
+    <option name="totallyTimeSpent" value="14666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -408,8 +400,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="130">
+          <caret line="10" column="110" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="110" />
         </state>
       </provider>
     </entry>
