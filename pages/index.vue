@@ -1,47 +1,52 @@
 <template>
   <div>
-    <el-main class="search-bar-center">
-      <div class="block">
-        <div class="logo-center">
-          <img src="logo/noonde_log.png"/>
-        </div>
-        <el-row :gutter="10" justify="space-between" type="flex">
-          <el-col :xs="8" :sm="6" :md="4" :lg="3" :xl="1"><div class="grid-content bg-purple"></div></el-col>
-          <el-col :xs="4" :sm="6" :md="8" :lg="9" :xl="11"><div class="grid-content bg-purple-light"></div></el-col>
-          <el-col :xs="4" :sm="6" :md="8" :lg="9" :xl="11"><div class="grid-content bg-purple"></div></el-col>
-        </el-row>
-      </div>
-    </el-main>
+    <v-container class="text-xs-center">
+      <v-layout justify-center align-center wrap>
+        <v-flex xs12>
+          <v-avatar size="100px">
+            <v-img src="/logo/noonde_log.png" style="width:80%" class="logoPosition"></v-img>
+          </v-avatar>
+        </v-flex>
+        <v-flex xs12 style="margin-top: 170px">
+          <div class="frame_headding">
+            <v-layout row justify-space-between>
+              <v-flex xs5>
+                <v-card dark color="primary">
+                  <v-card-text class="px-0">4</v-card-text>
+                </v-card>
+              </v-flex>
+              <v-flex xs3>
+                <v-card dark color="primary">
+                  <v-card-text class="px-0">4</v-card-text>
+                </v-card>
+              </v-flex>
+              <v-flex xs3>
+                <v-card dark color="primary">
+                  <v-card-text class="px-0">4</v-card-text>
+                </v-card>
+              </v-flex>
+            </v-layout>
+          </div>
+        </v-flex>
+      </v-layout>
+    </v-container>
   </div>
 </template>
 
 <style scoped>
-  .search-bar-center {
-    margin-top: 300px;
-  }
-  .logo-center{
+  .logoPosition {
+    margin-top: 200px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    width: 500px !important;
+    height: 200px !important;
+    background-size: contain;
   }
-  .block {
-    padding: 0 10px;
-  }
-  .el-col {
-    border-radius: 4px;
-  }
-  .bg-purple-dark {
-    background: #99a9bf;
-  }
-  .bg-purple {
-    background: #d3dce6;
-  }
-  .bg-purple-light {
-    background: #e5e9f2;
-  }
-  .grid-content {
-    border-radius: 4px;
-    min-height: 36px;
+  .frame_headding {
+    marign-top: 200px;
+    padding: 5px 10px;
+    border: 1px solid #669fdf;
+    margin: 24px 0 16px;
   }
 </style>
 

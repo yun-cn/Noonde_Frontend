@@ -2,7 +2,6 @@ module.exports = {
 
   build: {
     vendor: [
-      'element-ui',
       'vuetify',
       'vue-i18n'
     ],
@@ -18,7 +17,6 @@ module.exports = {
     }
   },
   plugins: [
-    '@/plugins/element-ui',
     '@/plugins/vuetify',
     '@/plugins/i18n'
   ],
@@ -42,7 +40,7 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/earlyaccess/notosansjapanese.css' },
-      { rel: 'stylesheet', href: 'https://fonts.loli.net/css?family=Roboto:100,300,400,500,700,900|Material+Icons'}
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons'}
     ]
   },
   loading: { color: '#3B8070' }
