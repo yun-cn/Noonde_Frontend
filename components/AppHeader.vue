@@ -19,12 +19,6 @@
               </v-list-tile>
             </v-list>
           </v-menu>
-          <v-btn icon>
-            <v-icon>favorite</v-icon>
-          </v-btn>
-          <v-btn icon>
-            <v-icon>more_vert</v-icon>
-          </v-btn>
         </v-toolbar>
       </v-card>
     </div>
@@ -33,6 +27,7 @@
 <!-- ============================================================================ -->
 <script>
   import mixins from '~/utils/mixins/shared'
+
   export default {
     mixins: [mixins],
     data() {

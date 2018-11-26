@@ -1,7 +1,2 @@
-components:
-  app-header:
-    login: 登録
-    lang:
-      zh-CN: 中文
-      ja: 日本語
-      en-US: English
+index:
+  search: どこへいきたいですか?

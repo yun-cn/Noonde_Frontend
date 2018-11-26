@@ -23,7 +23,6 @@ export default {
     changeLanguage(context, language) {
       let newLocale = language !== 'zh-CN' ? ('/' + language) : ''
       let previousLocale = this.$store.state.base.locale.selected
-      console.log('previousLocale', previousLocale)
       if (previousLocale === 'zh-CN') {
         context.$router.push(context.fullPath.replace(/^\/+/, newLocale + '/'))
       } else {
