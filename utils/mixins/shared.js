@@ -28,6 +28,14 @@ export default {
       } else {
         context.$router.push(context.fullPath.replace(/^\/[^/]+/, newLocale))
       }
-    }
+    },
+    rangeOptionsForSelect (start, end, suffixForMore = '') {
+      let selectOptions = []
+      for (let i = start; i <= end; i++) {
+        const text = i === end ? i + suffixForMore : i
+        selectOptions.push({text: text, value: i})
+      }
+      return selectOptions
+    },
   }
 }

@@ -3,7 +3,8 @@ module.exports = {
   build: {
     vendor: [
       'vuetify',
-      'vue-i18n'
+      'vue-i18n',
+      'vue-hotel-datepicker',
     ],
     extend (config, { isDev }) {
       if (isDev &&  process.client) {
@@ -18,16 +19,20 @@ module.exports = {
   },
   plugins: [
     '@/plugins/vuetify',
-    '@/plugins/i18n'
+    '@/plugins/i18n',
+    { src: '~/plugins/vue-hotel-datepicker.js', ssr: false }
   ],
   router: {
     middleware: [
       'i18n'
     ]
   },
+  env: {
+    baseUrl: process.env.BASE_URL || 'http://127.0.0.1:4000',
+    real: process.env.REAL_ENV || 'development'
+  },
   css: [
-    'element-ui/lib/theme-chalk/index.css',
-    'vuetify/dist/vuetify.min.css'
+    'vuetify/dist/vuetify.min.css',
   ],
   head: {
     title: 'Noonde',
