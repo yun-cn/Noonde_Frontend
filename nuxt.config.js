@@ -2,6 +2,7 @@ module.exports = {
 
   build: {
     vendor: [
+      'axios',
       'vuetify',
       'vue-i18n',
       'vue-hotel-datepicker',
