@@ -1,4 +1,7 @@
-index:
-  search: どこへいきたいですか?
-  people-number: 人数
-  search-button: 検索
+components:
+  app-header:
+    login: 登録
+    lang:
+      zh-CN: 中文
+      ja: 日本語
+      en-US: English

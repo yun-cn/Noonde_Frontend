@@ -1,4 +1,7 @@
-index:
-  search: Where do you want to go?
-  people-number: Nº Guests
-  search-button: Search
+components:
+  app-header:
+    login: Login
+    lang:
+      zh-CN: 中文
+      ja: 日本語
+      en-US: English

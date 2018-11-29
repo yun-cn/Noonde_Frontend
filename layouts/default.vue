@@ -1,10 +1,12 @@
 <template>
-  <div>
-    <v-app>
-      <app-header/>
+  <el-container>
+    <el-header>
+      <AppHeader/>
+    </el-header>
+    <el-main>
       <nuxt/>
-    </v-app>
-  </div>
+    </el-main>
+  </el-container>
 </template>
 
 <style lang="stylus">
