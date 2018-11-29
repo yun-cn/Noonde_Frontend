@@ -1,4 +1,7 @@
-index:
-  search: 您想去的地方?
-  people-number: 人数
-  search-button: 搜索
+components:
+  app-header:
+    login: 登录
+    lang:
+      zh-CN: 中文
+      ja: 日本語
+      en-US: English
