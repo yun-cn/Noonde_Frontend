@@ -3,7 +3,6 @@
     <el-menu
       class="el-menu-demo"
       mode="horizontal"
-      @select="handleSelect"
       background-color="#eef1f6"
       text-color="#303133"
       active-text-color="#409eff">
@@ -25,7 +24,7 @@
               <el-dropdown-item
                 v-for="(value, key) in langs"
                 :key="key"
-                @click.native="switchLang(key)">
+                @click.native="changeLanguage(context,key)">
                 {{ value }}
               </el-dropdown-item>
             </el-dropdown-menu>
@@ -50,10 +49,14 @@
 
 <script>
   import Default from "../layouts/default";
+  import mixins from '~/utils/mixins/shared';
+
   export default {
+    mixins: [mixins],
     components: {Default},
     data() {
      return {
+       context: this,
        verDropdownVisible: true,
        langDropdownVisible: true,
        langs: {
@@ -73,6 +76,11 @@
       langConfig() {
         return compoLang.filter(config => config.lang === this.lang)[0]['header'];
       },
+    },
+    methods: {
+      handleLangDropdownToggle(visible) {
+        this.langDropdownVisible = visible;
+      }
     }
   }
 </script>

@@ -1,16 +1,21 @@
 <template>
   <div>
+    <el-row>
+      <el-col :span="24">
+        <div class="logoPosition">
+          <img src="logo/noonde_log.png"/>
+        </div>
+      </el-col>
+    </el-row>
+    <SearchBar/>
   </div>
 </template>
 
 <style scoped>
   .logoPosition {
-    margin-top: 200px;
+    padding-top: 109px;
     display: flex;
     justify-content: center;
-    width: 500px !important;
-    height: 200px !important;
-    background-size: contain;
   }
   .frame_headding {
     marign-top: 200px;
@@ -18,12 +23,30 @@
     border: 1px solid #00ca9d;
     margin: 24px 0 16px;
   }
+  .el-col {
+    border-radius: 4px;
+  }
+  .bg-purple-dark {
+    background: #99a9bf;
+  }
+  .bg-purple {
+    background: #d3dce6;
+  }
+  .bg-purple-light {
+    background: #e5e9f2;
+  }
+  .grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+  }
 
 </style>
 
 <script>
   import axios from '~/plugins/axios';
   import mixins from '~/utils/mixins/shared';
+  import SearchBar from '~/components/SearchBar';
+  import 'element-ui/lib/theme-chalk/display.css';
 
   export default {
     mixins: [mixins],
@@ -33,6 +56,7 @@
       }])
     },
     components: {
+      SearchBar,
     },
     data () {
       return {

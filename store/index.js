@@ -2,7 +2,7 @@ export const state = () => ({
   base: {
    locale: {
      locales: ['ja', 'en-US', 'zh-CN'],
-     selected: 'zh-CN'
+     selected: 'zh-CN',
    },
    layout: {
     current: null,

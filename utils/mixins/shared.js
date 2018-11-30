@@ -24,9 +24,9 @@ export default {
       let newLocale = language !== 'zh-CN' ? ('/' + language) : ''
       let previousLocale = this.$store.state.base.locale.selected
       if (previousLocale === 'zh-CN') {
-        context.$router.push(context.fullPath.replace(/^\/+/, newLocale + '/'))
+        context.$router.push(context.$route.fullPath.replace(/^\/+/, newLocale + '/'))
       } else {
-        context.$router.push(context.fullPath.replace(/^\/[^/]+/, newLocale))
+        context.$router.push(context.$route.fullPath.replace(/^\/[^/]+/, newLocale))
       }
     },
     rangeOptionsForSelect (start, end, suffixForMore = '') {
