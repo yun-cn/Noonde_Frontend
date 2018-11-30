@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9c784f0-7008-419c-897e-f2c3b69d19d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/SearchBar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/search.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/AppHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/AppHeader.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/i18n.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/i18n.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/mixins/shared.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/mixins/shared.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,8 +38,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/layouts/default.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="39">
-                  <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+                <state relative-caret-position="286">
+                  <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -147,8 +138,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/index.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="13">
-                  <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+                <state relative-caret-position="65">
+                  <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
                   <folding>
                     <element signature="e#728#764#0" expanded="true" />
                   </folding>
@@ -234,11 +225,11 @@
         <option value="$PROJECT_DIR$/utils/mixins/shared.js" />
         <option value="$PROJECT_DIR$/components/AppHeader.vue" />
         <option value="$PROJECT_DIR$/plugins/i18n.js" />
-        <option value="$PROJECT_DIR$/pages/index.vue" />
         <option value="$PROJECT_DIR$/components/SearchBar.vue" />
         <option value="$PROJECT_DIR$/pages/_locale/search.vue" />
         <option value="$PROJECT_DIR$/pages/search.vue" />
         <option value="$PROJECT_DIR$/layouts/default.vue" />
+        <option value="$PROJECT_DIR$/pages/index.vue" />
       </list>
     </option>
   </component>
@@ -327,12 +318,12 @@
       <workItem from="1543367896494" duration="2178000" />
       <workItem from="1543396247552" duration="7990000" />
       <workItem from="1543494776491" duration="7183000" />
-      <workItem from="1543540951673" duration="14120000" />
+      <workItem from="1543540951673" duration="14182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72893000" />
+    <option name="totallyTimeSpent" value="72955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1680" height="1027" extended-state="6" />
@@ -558,16 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding>
-            <element signature="e#728#764#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/i18n.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -580,8 +561,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/default.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="286">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <element signature="e#728#764#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
